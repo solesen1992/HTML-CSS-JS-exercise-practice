@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<!-- CREDIT: This code is not originally made by me, but a teacher at UCN.
+    I've made smaller changes to get to know the code'-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Hello</title>
+    <link rel="stylesheet" type="text/css" href="./css/pages.css" />
+    <script src="./js/vendor/jquery-3.6.4.js"></script>
+    <script src="./js/pagesFunc.js"></script>
+    <script src="./js/jqueryFunc.js"></script>
+</head>
+<body>
+    <header>
+        <h3>Hello World</h3>
+    </header>
+
+    <main>
+        <div class="leftArea">
+            Main content here
+            <br />
+            <!-- A button that triggers the `DivToggler` function when clicked -->
+            <button type="button" onclick="DivToggler()">Click Me!</button>
+            <div id="div1"> </div>
+            <div id="div2"> </div>
+            <div id="div3"> </div>
+            <div>
+                <span>Hi</span>
+            </div>
+        </div>
+        <div class="rightArea">
+            <div>Cool stuff</div>
+            <!-- An unordered list with the class 'coollist' -->
+            <ul class="coollist">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <br />
+            <!-- A button that triggers the `jQueryChangeDom` function when clicked -->
+            <button type="button" onclick="jQueryChangeDom()">No Me!</button>
+        </div>
+    </main>
+    <footer>
+        www.ucn.dk
+    </footer>
+
+</body>
+</html>

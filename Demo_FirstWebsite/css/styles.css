@@ -1,0 +1,17 @@
+﻿/*
+    Exercise in creating a html file in visual studio.
+*/
+
+body
+{
+    background-color: lightseagreen;
+}
+
+main div.hello {
+    background-color: aquamarine;
+    color: black;
+    font-size: large;
+    width: 600px;
+    height: 300px;
+}
+

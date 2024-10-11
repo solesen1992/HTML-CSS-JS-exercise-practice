@@ -1,0 +1,60 @@
+﻿/* Style for the body of the page */
+body {
+    padding-left: 10%; /* Adds 10% padding on the left side of the body */
+    width: 80%; /* Sets the width of the body to 80% of the viewport */
+    min-height: 80%; /* Ensures that the body has a minimum height of 80% of the viewport */
+    background-color: aquamarine; /* Sets the background color of the body to aquamarine */
+}
+
+/* Style for the main section */
+main {
+    margin: 20px 40px 20px 30px; /* Sets margins: top 20px, right 40px, bottom 20px, left 30px */
+    background-color: lightyellow; /* Sets the background color of the main section to light yellow */
+}
+
+/* Style for the footer section */
+footer {
+    width: 80%; /* Sets the width of the footer to 80% of the viewport */
+    float: left; /* Aligns the footer to the left side of the page */
+}
+
+/* Style for buttons */
+button {
+    padding: 12px; /* Adds 12px padding around the button's content */
+    border: 2px groove green; /* Sets a 2px grooved green border for the button */
+    background-color: greenyellow; /* Sets the background color of the button to green-yellow */
+    cursor: grab; /* Changes the cursor to a "grab" hand when hovering over the button */
+}
+
+/* Class for left area content */
+.leftArea {
+    width: 40%; /* Sets the width of the left area to 40% of its container */
+    padding: 20px; /* Adds 20px padding inside the left area */
+    border: 1px solid green; /* Sets a 1px solid green border around the left area */
+    float: left; /* Floats the left area to the left */
+}
+
+/* Class for right area content */
+.rightArea {
+    width: 30%; /* Sets the width of the right area to 30% of its container */
+    padding: 20px; /* Adds 20px padding inside the right area */
+    border: 1px solid blue; /* Sets a 1px solid blue border around the right area */
+    float: right; /* Floats the right area to the right */
+}
+
+/* Styles applied to all div and span elements */
+div, span {
+    font-family: Tahoma, Arial; /* Sets the font-family for div and span to Tahoma or Arial */
+    font-size: medium; /* Sets the font-size for div and span to medium */
+    color: darkred; /* Sets the font color for div and span to dark red */
+}
+
+    /* Specific style for an element with ID 'div2' within a div */
+    div #div2 {
+        color: red; /* Changes the font color to red for the element with ID 'div2' inside a div */
+    }
+
+    /* Style for a span inside a div inside another div */
+    div div span {
+        font-size: large; /* Sets the font-size to large for span elements that are nested inside two divs */
+    }
