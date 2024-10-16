@@ -1,0 +1,39 @@
+﻿body {
+    font-family: arial;
+    font-size: 12px;
+}
+
+div.outMost {
+    padding: 10px;
+}
+
+ul.slideshow {
+    list-style: none;
+    width: 640px;
+    height: 480px;
+    /*overflow:hidden;*/
+    position: relative;
+    background-color: lightblue;
+    margin-left: 0;
+    padding: 10px 0 10px 0
+}
+
+/* Ensures images area "shown" on top of each other */
+ul.slideshow li {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+/* Puts current image on top (of stack) */
+ul.slideshow li.show {
+    z-index: 500;
+}
+
+ul li h3 {
+    text-align: center;
+}
+
+ul img {
+    border: none;
+}
